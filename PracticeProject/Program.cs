@@ -1,5 +1,6 @@
 ﻿using PracticeProject_Csharp._1_Examples;
 using PracticeProject_Csharp._1_Sample_Examples;
+using PracticeProject_Csharp._5_Boxing_UnBoxing_Example;
 
 namespace Projectpractice
 {
@@ -20,8 +21,14 @@ namespace Projectpractice
             StaticVariables2 obj2 = new StaticVariables2();
             obj2.fun1();
             StaticVariables2.fun();
-            //
+            //Swap program 
             SwapProgram.Swap();    
+            //Boxing
+            Boxing obj4 = new Boxing ();
+            obj4.boxingfun();
+            //unboxing
+            Unboxing obj5= new Unboxing (); 
+            obj5.unboxingfun(); 
 
    
         }

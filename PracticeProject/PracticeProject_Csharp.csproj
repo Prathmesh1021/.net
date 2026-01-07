@@ -8,8 +8,4 @@
     <StartupObject>Projectpractice.Program</StartupObject>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="5_Boxing UnBoxing Example\" />
-  </ItemGroup>
-
 </Project>
