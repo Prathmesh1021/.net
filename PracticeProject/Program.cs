@@ -1,6 +1,7 @@
 ﻿using PracticeProject_Csharp._1_Examples;
 using PracticeProject_Csharp._1_Sample_Examples;
 using PracticeProject_Csharp._5_Boxing_UnBoxing_Example;
+using PracticeProject_Csharp._6_DataTypes;
 
 namespace Projectpractice
 {
@@ -28,9 +29,13 @@ namespace Projectpractice
             obj4.boxingfun();
             //unboxing
             Unboxing obj5= new Unboxing (); 
-            obj5.unboxingfun(); 
-
-   
+            obj5.unboxingfun();
+            // Primitive data Type 
+            PrimitiveDataType obj6 = new PrimitiveDataType();
+            obj6.pDataTypeFun();
+            //Deriverd Data Type 
+            DeriverdDataTypes obj7 = new DeriverdDataTypes ();
+            obj7.DDataTypefun1();
         }
     }
 

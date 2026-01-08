@@ -5,7 +5,15 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Projectpractice.Program</StartupObject>
+    <StartupObject></StartupObject>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="7_Operator\_1 Unary Operator\minusOperator3.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="7_Operator\_2 Binary Operator\" />
+  </ItemGroup>
 
 </Project>
